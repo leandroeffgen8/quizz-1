@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ</title>
+    <link rel="icon" type="image/.png" sizes="16x16"  href="./images/favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <section class="container">
+        <div id="answer">
+            <h1 id="title">Que País é esse?</h1>            
+        </div>
+        <div id="container-country">
+            <div id="hits" class="qtda">
+                <span class="number">0</span>
+                <span>Acertos</span>
+            </div>
+            <div id="brand-country">
+                <img src="images/brasil.jpg" alt="">
+            </div>
+            <div id="mistakes" class="qtda">
+                <span class="number">0</span>
+                <span>Erros</span>
+            </div>
+            
+        </div>
+
+        <div class="score-container hide"> 
+            <h2 id="finish"></h2>
+            <p id="display-score"><span>90</span></p>
+            <p>Você acertou <span id="correct-answers">0</span> de <span id="questions-qty">10</span> perguntas.</p>
+            <button id="restart">Refazer quizz!</button> 
+        </div>
+
+        <div id="choiceCountry"></div>
+        
+    </section>
+
+    <!-- TEMPLATE RESPOSTA -->
+    <button class="answer-template hide">
+        <span class="question-answer"></span>
+    </button>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
